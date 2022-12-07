@@ -8,21 +8,21 @@ const Header = () => {
         <a href="">
           <TbBrandApple className='text-2xl' />
         </a>
-        <ul className='flex items-center gap-x-6 font-bold leading-4 text-sm text-[#23262F]'>
+        <ul className='flex items-center gap-x-6 font-bold leading-4 text-sm'>
           <li>
             <a href="#" className='text-slate-900'>Home</a>
           </li>
           <li>
-            <a href="#" className='text-slate-400 hover:text-slate-900'>About</a>
+            <a href="#" className='transition-all text-slate-400 hover:text-slate-900'>About</a>
           </li>
           <li>
-            <a href="#" className='text-slate-400 hover:text-slate-900'>News</a>
+            <a href="#" className='transition-all text-slate-400 hover:text-slate-900'>News</a>
           </li>
           <li>
-            <a href="#" className='text-slate-400 hover:text-slate-900'>Contact</a>
+            <a href="#" className='transition-all text-slate-400 hover:text-slate-900'>Contact</a>
           </li>
           <li>
-            <a href="#" className='px-7 py-[18px] bg-slate-200 hover:bg-slate-300 text-slate-900 rounded-full'>Purchase $27</a>
+            <a href="#" className='transition-all px-7 py-[18px] bg-slate-200 hover:bg-slate-300 text-slate-900 hover:text-white rounded-full'>Purchase $27</a>
           </li>
         </ul>
       </div>
