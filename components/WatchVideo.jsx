@@ -13,7 +13,7 @@ const WatchVideo = () => {
             scale.
           </p>
 
-          <div className="mt-[80px] inline-flex items-center bg-slate-100 hover:bg-slate-300 text-slate-900 hover:text-slate-50 border-[2px] border-slate-200 rounded-full py-4 pl-6 pr-3">
+          <div className="mt-[80px] inline-flex items-center bg-slate-100 hover:bg-slate-300 text-slate-900 hover:text-slate-50 border-[2px] border-slate-200 rounded-full py-4 pl-6 pr-3 transition-all">
             <p className="font-bold text-[16px] leading-4 ">
               Watch Video
             </p>
