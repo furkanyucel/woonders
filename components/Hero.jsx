@@ -29,16 +29,16 @@ const Hero = () => {
             {/* button */}
             <a
               href="#"
-              className="mt-8 inline-flex font-bold text-[16px] leading-[16px] text-white py-[22px] px-8 bg-blue-500 hover:bg-blue-600 rounded-full"
+              className="mt-8 inline-flex font-bold text-[16px] leading-[16px] text-white py-[22px] px-8 bg-blue-500 hover:bg-blue-600 rounded-full transition-all"
             >
-              View on UI8
+              Let's Go
             </a>
           </div>
         </div>
 
         {/* mouse scroll */}
-        <div className="mt-[80px] mx-auto inline-flex rounded-full border-2 border-[#E6E8EC] px-[13px] pt-[13px] pb-[29px]">
-          <div className="w-[6px] h-[6px] bg-[#23262F] rounded-full"></div>
+        <div className="mt-[80px] mx-auto inline-flex rounded-full border-2 border-slate-200 hover:border-slate-300 px-[13px] pt-[13px] pb-[29px] transition-all">
+          <div className="w-[6px] h-[6px] bg-slate-500 rounded-full"></div>
         </div>
       </div>
     </div>
