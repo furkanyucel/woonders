@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Brands from '../components/Brands'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
-import Brand from '../components/Brands'
+import Brands from '../components/Brands'
 import WatchVideo from '../components/WatchVideo'
 
 export default function Home() {
@@ -16,7 +15,7 @@ export default function Home() {
       </Head>
       <Header />
       <Hero />
-      <Brand />
+      <Brands />
       <WatchVideo />
     </div>
   )
