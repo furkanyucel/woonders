@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="sm:pt-[15rem] md:pt-0">
       <div className="py-[90px] text-center bg-slate-100 text-slate-900">
         <div>
           {/* title */}
